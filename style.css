@@ -4,22 +4,43 @@
     box-sizing: border-box;
     
 }
- .border{
-    border-radius: 20px !important;
-  padding: 20px;
-  width: 200px;
-  height: 150px;
+ 
 
- }
+ 
  .container{
     max-width: 1440px !important;
  }
- .p{
-    font-size: 20px !important;
- }
+ 
+ 
 
  .navbar{
     background-color:#001b41 !important;
  }
+
+ .footer{
+    background-color:#001b41 !important;
+ }
+
+ .hero{
+    background-color:#002559 !important ;
+ }
+
+ .hero1{
+    background-color:#001b41 !important ;
+ }
+
+ :hover {
+    opacity: 1;
+
+ }
+
+ .hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:rgb(15,176,205); /* Change the background color and opacity as desired */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
 
 
