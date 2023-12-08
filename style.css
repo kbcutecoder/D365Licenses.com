@@ -74,6 +74,16 @@
   
  }
 
+ @media screen and (min-width: 400px) {
+   /* Styles to apply when the viewport width is 400 pixels or more */
+   body {
+    
+   }
+
+    
+ }
+ 
+
 
 
 
