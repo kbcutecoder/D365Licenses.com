@@ -38,7 +38,41 @@
     
     background-color:rgb(15,176,205); /* Change the background color and opacity as desired */
     transition: background-color 0.3s ease;
+    color:white;
   }
+
+  .bh1:hover {
+    
+   background-color:rgb(128,224,251); /* Change the background color and opacity as desired */
+   transition: background-color 0.3s ease;
+   color:rgb(44,131,203)e;
+ }
+
+ .bh2:hover {
+    
+   background-color:rgb(254,226,128); /* Change the background color and opacity as desired */
+   transition: background-color 0.3s ease;
+   color:rgb(241,160,41);
+ }
+
+ .bh3:hover {
+    
+   background-color:rgb(234,197,255); /* Change the background color and opacity as desired */
+   transition: background-color 0.3s ease;
+   color:rgb(145,121,187);
+ }
+
+ .bh4:hover {
+    
+   background-color:rgb(231,230,230); /* Change the background color and opacity as desired */
+   transition: background-color 0.3s ease;
+   
+ }
+
+ .kb{
+   background-image: url('image/pexels-lucie-liz-3165335.jpg');
+  
+ }
 
 
 
