@@ -34,13 +34,12 @@
 
  }
 
- .hover {
-    position: absolute;
-    top: 0;
-    left: 0;
+ .bh:hover {
+    
     background-color:rgb(15,176,205); /* Change the background color and opacity as desired */
-    opacity: 0;
-    transition: opacity 0.3s ease;
+    transition: background-color 0.3s ease;
   }
+
+
 
 
