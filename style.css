@@ -1,19 +1,23 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
-*{
-    box-sizing: border-box;
-    
+* 
+{
+    box-sizing: border-box;    
 }
  
+body
+{
+   margin: 0px;
+   padding: 0px;
+}
 
- 
- .container{
+.container 
+ {
     max-width: 1440px !important;
  }
  
- 
-
- .navbar{
+ .navbar
+ {
     background-color:#001b41 !important;
  }
 
@@ -23,10 +27,25 @@
 
  .hero{
     background-color:#002559 !important ;
+    overflow-y: auto;
+    min-height: 300px;
  }
 
- .hero1{
+ .hero + .container{
     background-color:#001b41 !important ;
+    border-radius: 25px!important;
+    transform: translateY(-250px);
+    width: 80% !important;
+ }
+
+ .navbar-brand
+ {
+    max-width: 500px !important;
+ }
+
+ .imgup
+ {
+   transform: translateY(-50px) !important;
  }
 
  :hover {
@@ -35,7 +54,6 @@
  }
 
  .bh:hover {
-    
     background-color:rgb(15,176,205); /* Change the background color and opacity as desired */
     transition: background-color 0.3s ease;
     color:white;
@@ -74,21 +92,18 @@
   
  }
 
- @media screen and (min-width: 400px) {
-   /* Styles to apply when the viewport width is 400 pixels or more */
-   body {
-    
-   }
+ @media screen and (max-width: 500px) 
+ {
    .footer{
       text-align: center;
+   }  
+
+   .imgup
+   {
+     transform: translateY(15px) !important;
    }
-
-   
-
-    
+   .navbar-brand
+   {
+      width: 70% !important;
+   }
  }
- 
-
-
-
-
