@@ -1,109 +1,129 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
-* 
-{
-    box-sizing: border-box;    
+* {
+   box-sizing: border-box;
 }
- 
-body
-{
+
+body {
    margin: 0px;
    padding: 0px;
 }
 
-.container 
- {
-    max-width: 1440px !important;
- }
- 
- .navbar
- {
-    background-color:#001b41 !important;
- }
+.container {
+   max-width: 1440px !important;
+}
 
- .footer{
-    background-color:#001b41 !important;
- }
+.navbar {
+   background-color: #001b41 !important;
+}
 
- .hero{
-    background-color:#002559 !important ;
-    overflow-y: auto;
-    min-height: 300px;
- }
+.footer {
+   background-color: #001b41 !important;
+}
 
- .hero + .container{
-    background-color:#001b41 !important ;
-    border-radius: 25px!important;
-    transform: translateY(-250px);
-    width: 80% !important;
- }
+.hero {
+   background-color: #002559 !important;
+   overflow-y: auto;
+   min-height: 300px;
+}
 
- .navbar-brand
- {
-    max-width: 500px !important;
- }
+.hero+.container {
+   background-color: #001b41 !important;
+   border-radius: 25px !important;
+   /* transform: translateY(-250px); */
+   top: -250px;
+   position: relative;
+   width: 80% !important;
+}
 
- .imgup
- {
+.navbar-brand {
+   max-width: 500px !important;
+}
+
+.fix {
+   top: -100px;
+   position: relative;
+}
+
+.imgup {
    transform: translateY(-50px) !important;
- }
+}
 
- :hover {
-    opacity: 1;
+:hover {
+   opacity: 1;
 
- }
+}
 
- .bh:hover {
-    background-color:rgb(15,176,205); /* Change the background color and opacity as desired */
-    transition: background-color 0.3s ease;
-    color:white;
-  }
-
-  .bh1:hover {
-    
-   background-color:rgb(128,224,251); /* Change the background color and opacity as desired */
+.bh:hover {
+   background-color: rgb(15, 176, 205);
+   /* Change the background color and opacity as desired */
    transition: background-color 0.3s ease;
-   color:rgb(44,131,203)e;
- }
+   color: white;
+}
 
- .bh2:hover {
-    
-   background-color:rgb(254,226,128); /* Change the background color and opacity as desired */
+.bh1:hover {
+
+   background-color: rgb(128, 224, 251);
+   /* Change the background color and opacity as desired */
    transition: background-color 0.3s ease;
-   color:rgb(241,160,41);
- }
+   color: rgb(44, 131, 203)e;
+}
 
- .bh3:hover {
-    
-   background-color:rgb(234,197,255); /* Change the background color and opacity as desired */
+.bh2:hover {
+
+   background-color: rgb(254, 226, 128);
+   /* Change the background color and opacity as desired */
    transition: background-color 0.3s ease;
-   color:rgb(145,121,187);
- }
+   color: rgb(241, 160, 41);
+}
 
- .bh4:hover {
-    
-   background-color:rgb(231,230,230); /* Change the background color and opacity as desired */
+.bh3:hover {
+
+   background-color: rgb(234, 197, 255);
+   /* Change the background color and opacity as desired */
    transition: background-color 0.3s ease;
-   
- }
+   color: rgb(145, 121, 187);
+}
 
- .kb{
+.bh4:hover {
+
+   background-color: rgb(231, 230, 230);
+   /* Change the background color and opacity as desired */
+   transition: background-color 0.3s ease;
+
+}
+
+.kb {
    background-image: url('image/pexels-lucie-liz-3165335.jpg');
-  
- }
 
- @media screen and (max-width: 500px) 
- {
-   .footer{
-      text-align: center;
-   }  
+}
 
-   .imgup
-   {
-     transform: translateY(15px) !important;
+.footer a {
+   font-size: 20px;
+   color: white !important;
+   display: block;
+   /* Add any additional styling as needed */
+}
+
+.footer a:hover {
+   text-decoration: underline;
+}
+
+
+@media screen and (max-width: 500px) {
+   .imgup {
+      transform: translateY(15px) !important;
    }
-   .navbar-brand
-   {
+
+   .navbar-brand {
       width: 70% !important;
    }
- }
+
+   .footer a {
+      padding: 10px 2px !important;
+   }
+
+   .footer img {
+      padding-top: 10px;
+   }
+}
